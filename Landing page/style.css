@@ -1,0 +1,402 @@
+
+
+
+
+
+.header {
+    background-color: rgb(255, 189, 68);
+    height: 60px; /* Adjust height as needed */
+    width: 100%; /* Full width */
+  }
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50%;
+    margin-right: 20%;
+}
+
+.nav a{
+    margin-top: 4.5%;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link0 {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px; 
+    border: 1px solid rgb(104, 104, 104);
+    color: #ff6701; 
+    transition: all 0.3s ease; 
+    position: absolute;
+    top: 3.3%;
+    left: 81%;
+    width: 5%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.link0:hover {
+    background-color: #333;
+    color: #fff; 
+}
+
+.container{
+    background-image: url("background_11_nQJIc9J.normal.jpeg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.container h1{
+    color: azure;
+    font-size: 70px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}
+
+.container p{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 8%;
+    top: 63%;
+}
+
+.container img{
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.link1 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #ffffff; 
+    border-radius: 20px; 
+    background-color: #46be00e0; 
+    color: #ffffff; 
+    transition: all 0.3s ease; 
+    position: absolute;
+    left: 20%;
+    top: 83%;
+    width: 15%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.link1:hover {
+    background-color: #ffffff;
+    color: #000000; 
+}
+
+
+
+.container2{
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    width: 100%;
+}
+
+.container2 .box1{
+    margin: 130px 35px;
+    position: absolute;
+    height: 400px;
+    width: 30%;
+    background-color: rgb(226, 255, 245);
+}
+
+.container2 .box1 img{
+    position: absolute;
+    height: 200px;
+    margin: 20px 40px;
+}
+.container2 .box1 h2{
+    position: absolute;
+    top: 55%;
+    margin-left: 37px;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+.container2 .box1 p{
+    position: absolute;
+    top: 68%;
+    margin-left: 37px;
+    font-size: 18px;
+    padding-right: 9%;
+    text-align: justify;
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container2 .box2{
+    margin: 130px 35px;
+    position: absolute;
+    height: 400px;
+    width: 30%;
+    left: 33%;
+    background-color: rgb(226, 255, 245);
+}
+
+.container2 .box2 img{
+    position: absolute;
+    height: 200px;
+    width: 80%;
+    margin: 20px 40px;
+}
+
+.container2 .box2 h2{
+    position: absolute;
+    top: 55%;
+    margin-left: 37px;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+.container2 .box2 p{
+    position: absolute;
+    top: 68%;
+    margin-left: 37px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 75%;
+    padding-right: 9%;
+    text-align: justify;
+}
+.container2 .box3{
+    margin: 130px 35px;
+    position: absolute;
+    height: 400px;
+    width: 30%;
+    left: 65%;
+    background-color: rgb(226, 255, 245);
+}
+
+.container2 .box3 img{
+    position: absolute;
+    height: 200px;
+    width: 80%;
+    margin: 20px 40px;
+}
+
+.container2 .box3 h2{
+    position: absolute;
+    top: 55%;
+    margin-left: 37px;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+.container2 .box3 p{
+    position: absolute;
+    top: 68%;
+    margin-left: 37px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 75%;
+    padding-right: 9%;
+    text-align: justify;
+}
+
+.container3{
+    height: 200px;
+    width: 100%;
+    background-image: url("background_11_nQJIc9J.normal.jpeg");
+    background-size: cover;
+}
+
+.container3 .headtxt h1{
+    position: absolute;
+    color: white;
+    left: 8%;
+    margin-top: 3%;
+    font-size: 60px;
+}
+
+.container3 p{
+    position: absolute;
+    color: white;
+    left: 8%;
+    margin-top: 8.5%;
+    font-size: 20px;
+}
+
+.link2 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #333; 
+    border-radius: 20px; 
+    background-color: #fff; 
+    color: #333; 
+    transition: all 0.3s ease; 
+    position: absolute;
+    left: 65%;
+    margin-top: 6%;
+    width: 15%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.link2:hover {
+    background-color: #333;
+    color: #fff; 
+}
+.container4 {
+    height: 650px;
+    width: 100%;
+}
+
+.container4 .back{
+    height: 650px;
+    width: 100%;
+    background-image: url("white-abstract-geometric-shapes-curved-line-background-wallpaper_304422-227.jpg");
+    background-size: cover;
+    opacity: 20%;
+}
+.container4 h1{
+    position: absolute;
+    left: 10%;
+    top: 245%;
+    color: red;
+    text-decoration: underline;
+    letter-spacing: 5px;
+
+}
+
+.container4 p{
+    position: absolute;
+    top: 255%;
+    left: 10%;
+    width: 40%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.link3 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #333; 
+    border-radius: 20px; 
+    background-image: linear-gradient(to right, #FF7F00, #FFA500, #ff3300);
+
+    color: #333; 
+    transition: all 0.3s ease; 
+    position: absolute;
+    left: 24%;
+    top: 307%;
+    width: 7%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.link3:hover {
+    background-color: #333;
+    color: #fff; 
+}
+
+.container4 img{
+    position: absolute;
+    top: 255%;
+    left: 55%;
+    width: 40%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(28, 28, 56);
+    height: 350px;
+    width: 100%;
+}
+
+.footer0 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#ft{
+    margin-top: 3%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: rgb(163, 163, 189);
+    font-weight: 600;
+}
+
+.footer h1{
+    letter-spacing: 2px;
+}
+.footer1{
+    margin-left: 8%;
+}
+
+.input{
+    margin-right: 30%;
+}
+
+
+#email{
+    height: 30px;
+    width: 25%;
+    right: 18.5%;
+    position: absolute;
+
+}
+
+#subscribe{
+    position: absolute;
+    height: 37px;
+    width: 10%;
+    right: 8%;
+    color: #ffffff;
+    background-color: #ff3300;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.horizontal-line {
+    border: 1px solid white; 
+    margin: 100px 150px; 
+    width: 75%;
+    align-content: center;
+    
+  }
+
+.social img {
+    height: 50px;
+    left: 40%;
+}
+
+.social{
+    display: flex;
+    position: absolute;
+    left: 55%;
+    margin-top: -2%;
+}
+
+.detail{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(212, 212, 224);
+    left: 56%;
+    margin-top: 1%;
+}
